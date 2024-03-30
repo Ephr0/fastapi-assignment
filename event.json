@@ -1,22 +1,87 @@
 [
     {
         "id": 1,
-        "name": "Test event 1",
-        "date": "2024-03-06",
+        "name": "event",
+        "date": "2023-07-20",
         "organizer": {
-            "name": "fdev",
-            "email": "fdev@example.com"
+            "name": "string",
+            "email": "string"
         },
-        "status": "active",
-        "type": "event",
+        "status": "string",
+        "type": "string",
         "joiners": [
             {
-                "name": "Test User",
-                "email": "test@test.com",
-                "country": "Hungary"
+                "name": "bilguun",
+                "email": "bilguun@email.com",
+                "country": "string"
+            },
+            {
+                "name": "saqib",
+                "email": "saqib@email.com",
+                "country": "string"
             }
         ],
-        "location": "Budapest, Hungary",
-        "max_attendees": 100
+        "location": "string",
+        "max_attendees": 0
+    },
+    {
+        "id": 2,
+        "name": "event",
+        "date": "string",
+        "organizer": {
+            "name": "string",
+            "email": "string"
+        },
+        "status": "true",
+        "type": "string",
+        "joiners": [
+            {
+                "name": "bilguun",
+                "email": "bilguun@email.com",
+                "country": "string"
+            }
+        ],
+        "location": "string",
+        "max_attendees": 0
+    },
+    {
+        "id": 99,
+        "name": "bilguun",
+        "date": "string",
+        "organizer": {
+            "name": "string",
+            "email": "string"
+        },
+        "status": "false",
+        "type": "string",
+        "joiners": [
+            {
+                "name": "John Doe",
+                "email": "random@email.com",
+                "country": "Bermuda Triangle"
+            }
+        ],
+        "location": "string",
+        "max_attendees": 0
+    },
+    {
+        "id": 0,
+        "name": "boro",
+        "date": "2023-03-21",
+        "organizer": {
+            "name": "string",
+            "email": "string"
+        },
+        "status": "string",
+        "type": "string",
+        "joiners": [
+            {
+                "name": "jess",
+                "email": "alex&jess@gmail.com",
+                "country": "lebanon"
+            }
+        ],
+        "location": "string",
+        "max_attendees": 0
     }
 ]
